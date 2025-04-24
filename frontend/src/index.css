@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background-color: theme('colors.slate.900');
+  color: white;
+}
+
+@theme {
+  --color-slate-850: oklch(0.23 0.0319 242.31);
+}
